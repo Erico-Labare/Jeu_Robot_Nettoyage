@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot de nettoyage</title>
+    <link rel="stylesheet" href="RobotCSS.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="messages"></div>
+        <div id="parametres">
+            <label for="largeur">Largeur :</label>
+            <input type="number" id="largeur" min="1" value="6">
+            
+            <label for="hauteur">Hauteur :</label>
+            <input type="number" id="hauteur" min="1" value="5">
+            
+            <label for="pourcentageSale">Chance qu'une case générée soit sale :</label>
+            <input type="number" id="pourcentageSale" step="0.1" min="0" max="1" value="0.5">
+            
+            <button id="lancerJeu">Lancer le jeu</button>
+        </div>
+        <div id="grille-container">
+            <table id="grille"></table>
+        </div>
+    </div>
+    <script src="scriptPourHTML.js"></script>
+</body>
