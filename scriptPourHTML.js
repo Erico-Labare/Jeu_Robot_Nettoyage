@@ -1,3 +1,6 @@
+//Version JS secondaire après ajôur du HTML+CSS
+//Code plus détaillé sur la version JS ("scriptInitialJS.js")
+
 //fonction d'initialisation de la grille
 function initialiserGrille(largeur, hauteur, pourcentageSale) {
     const grille = [];
