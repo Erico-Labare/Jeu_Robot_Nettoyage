@@ -10,6 +10,8 @@ Mini projet issu d'un TP en autonomie sur les bases de Javascript dans lequel il
 
 Exécuter le HTM pour lancer le projet.
 
+![image](https://github.com/user-attachments/assets/a39723aa-c6a8-4ff7-8db3-d73bc61b182f)
+
 Il vous est demandé de définir :
 - la larguer de la grille à nettoyer.
 - la hauteur de la grille à nettoyer.
@@ -18,6 +20,8 @@ Il vous est demandé de définir :
 Vous pouvez ensuite lancer le jeu :
 - Le robot (marqué "R") va chercher les cases sales (de couleur marron) et va les nettoyer (changer la couleur en blanc).
 - Un log des actions réalisés s'affichera.
+
+![image](https://github.com/user-attachments/assets/e6607c15-9caf-439c-8145-d464ee7c6e95)
 
 ## Limites
 
